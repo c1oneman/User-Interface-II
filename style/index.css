@@ -137,19 +137,23 @@ a.active {
 .bottomSection .project {
     text-align: center;
     margin: 1%;
-    width: 22%;
+    width: 200px;
 }
 footer {
     padding: 5%;
     height: 10%;
 }
 footer div {
+  margin:1%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
 }
-.footerContent {
-    line-height: 2;
+#buttonRow {
+    width:29%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
